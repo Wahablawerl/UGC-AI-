@@ -22,43 +22,43 @@ export const plansData = [
   {
     id: "starter",
     name: "Starter",
-    price: "$499",
-    desc: "Best for early-stage startups.",
-    credits: "One-time",
+    price: "$10",
+    desc: "Try the platform at no cost.",
+    credits: 25,
     features: [
-      "Project discovery & planning",
-      "UI/UX design",
-      "Basic website development",
-      "1 revision round",
+      "25 credits",
+      "Standard quality",
+      "No watermark",
+      "Slower generation speed",
       "Email support",
     ],
   },
   {
     id: "pro",
-    name: "Growth",
-    price: "$1,499",
-    desc: "Growing teams and businesses.",
-    credits: "Monthly",
+    name: "pro",
+    price: "$29",
+    desc: "Creators and small teams.",
+    credits: 80,
     features: [
-      "Everything in Starter",
-      "Advanced UI/UX design",
-      "Custom development",
-      "Performance optimization",
-      "Priority support",
+      "80 credits",
+      "HD quality",
+      "No watermark",
+      "video generation",
+      "Priority  support",
     ],
     popular: true,
   },
   {
     id: "ultra",
-    name: "Scale",
-    price: "$3,999",
-    desc: "For brands ready to scale fast.",
-    credits: "Custom",
+    name: "Ultra",
+    price: "$99",
+    desc: "Scale accross teams and agencies.",
+    credits: 300,
     features: [
-      "Everything in Growth",
-      "Dedicated project manager",
-      "Ongoing optimization",
-      "Marketing & growth support",
+      "300 credits",
+      "FHD quality",
+      "No watermark",
+      "Fast generation speed",
       "Chat + Email support",
     ],
   },
@@ -66,35 +66,35 @@ export const plansData = [
 
 export const faqData = [
   {
-    question: "What services does your agency provide?",
+    question: "How does the AI generation work?",
     answer:
-      "We offer end-to-end digital services including brand strategy, UI/UX design, web and app development and growth-focused marketing solutions.",
+      "We leverage state-of-the-art diffusion models trained on millions of product images to blend your products into realistic scences while preserving details, lighting and reflections",
   },
   {
-    question: "Do you work with startups or only large companies?",
+    question: "Do I own the generated images?",
     answer:
-      "We work with startups, growing businesses and established brands. Our process is flexible and tailored to match your goals and scale.",
+      "Yes - you received full commercial right to any images or videos generated on the platform. Used them for ads, ecommerce, social media and more.",
   },
   {
-    question: "How long does a typical project take?",
+    question: "Can I cancel anytime?",
     answer:
-      "Project timelines vary by scope, but most projects take between 2–6 weeks. We provide a clear timeline after the discovery phase.",
+      "Yes - you can cancel from your dashboard at any time. Your subscription will remain active until the end of the current billing cycle, and you can continue to use any remaining credits until then.",
   },
   {
-    question: "Do you offer ongoing support after launch?",
+    question: "What input formats do you support?",
     answer:
-      "Yes. We offer maintenance, optimization and growth support packages to ensure your product continues to perform and evolve.",
+      "We support JPEG,PNG and WEBP . Output are hight-resolution PNGs and MP4 optimized for web and social media.",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Company",
+    title: "Quick Links",
     links: [
       { name: "Home", url: "#" },
-      { name: "Services", url: "#" },
-      { name: "Work", url: "#" },
-      { name: "Contact", url: "#" },
+      { name: "Features", url: "#" },
+      { name: "Pricing", url: "#" },
+      { name: "FAQ", url: "#" },
     ],
   },
   {
